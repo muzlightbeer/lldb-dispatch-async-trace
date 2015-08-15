@@ -10,7 +10,7 @@ Output not cleaned up. Preview examples from log.txt:
 
 ```
 (long) $1 = 0x00007fff88bdeb40
-Was dispatch by...
+Was dispatched by...
 frame #1: 0x00007fff88a6deae CoreFoundation`__CFRunLoopSetOptionsReason + 4094
 CoreFoundation`__CFRunLoopSetOptionsReason:
     0x7fff88a6deae <+4094>: lea    rdi, qword ptr [rip - 0x13fc173d] ; gAppSleepInfo
@@ -21,7 +21,7 @@ CoreFoundation`__CFRunLoopSetOptionsReason:
 ...
 
 (long) $28 = 0x00000001000029f5
-Was dispatch by...
+Was dispatched by...
 frame #1: 0x00000001000029be Preview`___lldb_unnamed_function26$$Preview + 122
 Preview`___lldb_unnamed_function26$$Preview:
     0x1000029be <+122>: add    rsp, 0x28
