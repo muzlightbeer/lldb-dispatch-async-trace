@@ -8,6 +8,7 @@ Breaks pretty bad on Preview and Pages (need to kill terminal). Works better if 
 
 Output not cleaned up. Preview examples from log.txt:
 
+```
 (long) $1 = 0x00007fff88bdeb40
 Was dispatch by...
 frame #1: 0x00007fff88a6deae CoreFoundation`__CFRunLoopSetOptionsReason + 4094
@@ -27,4 +28,4 @@ Preview`___lldb_unnamed_function26$$Preview:
     0x1000029c2 <+126>: pop    rbx
     0x1000029c3 <+127>: pop    rbp
     0x1000029c4 <+128>: ret
-    
+```  
